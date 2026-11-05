@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2026 KAS
+#
+# SPDX-License-Identifier: MPL-2.0
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+Makefile
+*.cmake.stamp
+
+
+# IDE
+.vscode/

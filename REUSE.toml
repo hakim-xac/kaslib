@@ -1,0 +1,20 @@
+version = 1
+
+SPDX-PackageName = "kaslib"
+SPDX-PackageSupplier = "KAS"
+SPDX-PackageDownloadLocation = "https://github.com/hakim-xac/kaslib"
+
+[[annotations]]
+path = [
+    "README.md",
+    "LICENSE",
+    ".gitignore",
+    ".vscode/**",
+    "**/*.cmake",
+    "cmake/**",
+    "build.txt",
+    "version.txt",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 KAS"
+SPDX-License-Identifier = "MPL-2.0"
